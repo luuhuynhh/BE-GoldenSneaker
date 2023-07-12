@@ -15,7 +15,7 @@ CREATE TABLE cart_item (
   id INT AUTO_INCREMENT PRIMARY KEY,
   count INT,
   product_id INT,
-  FOREIGN KEY (product_id) REFERENCES Product(id)
+  FOREIGN KEY (product_id) REFERENCES product(id)
 );
 
 INSERT INTO product (name, description, price, image, color) VALUES
