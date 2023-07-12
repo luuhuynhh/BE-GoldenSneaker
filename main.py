@@ -218,4 +218,4 @@ def delete_cart_item(product_id):
 
 
 if __name__ == '__main__':
-    app.run('localhost', 8000)
+    app.run()
