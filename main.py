@@ -217,5 +217,5 @@ def delete_cart_item(product_id):
     return jsonify({'message': 'Cart item deleted successfully'}), 200
 
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
