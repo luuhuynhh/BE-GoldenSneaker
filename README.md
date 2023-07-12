@@ -10,4 +10,4 @@
     MYSQL_DB=golden_sneaker
 ```
 
-3. Mở terminal ở thư mục gốc project và chạy lệnh `py main.py`
+3. Mở terminal ở thư mục gốc project và chạy lệnh `gunicorn main:app`
